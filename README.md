@@ -1,43 +1,76 @@
-## **Kitty the Kitchen Assistant**
+# Kitty the Kitchen Assistant
 
-**Description**
-Kitty helps you plan your meals and shopping lists with ease. Powered by Python, LangChain, and Reflux, this assistant simplifies recipe management and grocery shopping.
+**Recipe and shopping assistant**
 
-**Features**
+---
 
-- Recipe search and suggestions
-- Automated shopping list generation
-- Integration with Reflux for state management
+## Features
 
-**Technologies Used**
+- Generate personalized recipes based on available ingredients.
+- Create and manage shopping lists.
+- Powered by LangChain for intelligent responses.
 
-- Python
-- LangChain
-- Reflux
+---
 
-**How to Run Locally**
+## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/benlaval23/kitchen-helper.git
    ```
-2. Install required libraries:
+2. Navigate to the project directory:
+   ```bash
+   cd kitchen-helper
+   ```
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application:
+4. Run the application:
    ```bash
-   python app.py
+   reflex run
    ```
 
-[GitHub Repository](https://github.com/benlaval23/kitchen-helper)
+---
 
+## Usage
 
-3. Start the Flask server:
+1. Start the app:
    ```bash
-   flask run
+   reflex run
    ```
+2. Interact with Kitty to find recipes or manage your shopping list.
 
-[GitHub Repository](https://github.com/benlaval23/wheretowatch)
+---
 
-**an y**
+## Technologies Used
+
+- **Python**: Programming language.
+- **LangChain**: Framework for building applications with LLMs.
+- **Reflex**: Web framework for the interface.
+
+---
+
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
